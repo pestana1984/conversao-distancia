@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  pyhton:
+    container_name: python
+
+    image: python:${python_version}
+
+    ports:
+      - 5000:5000
+
